@@ -1,0 +1,48 @@
+/* Video Card */
+
+.video-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .video-main {
+    height: 213px;
+    width: 329px;
+    background-image: url(../assets/images/image\ 11.png);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .video-main a{
+    display: flex;
+    position: absolute;
+  }
+  
+  .video-main img:hover{
+    filter: brightness(1.5);
+    transition: 200ms ease-in-out;
+    transform: scale(1.05);
+  }
+  
+  
+  .video-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .video-content h1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+ .iframe{
+  border: none;
+  width: 600px;
+  height: 400px;
+ }

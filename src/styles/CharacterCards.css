@@ -1,0 +1,65 @@
+/* Character Card */
+.character-card {
+  display: flex;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.character-card img{
+  height: 238px;
+  width: 164.5px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.character-content{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border-radius: 8px; 
+  gap: 10px;
+  padding: 10px 10px;
+  transition: ease-out;
+  position: absolute;
+  overflow: hidden;
+
+}
+
+.character-content h1{
+  color: #ffff;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+}
+
+.character-content p{
+  text-align: start;
+  color: #ffff;
+  font-family: 'Cinzel',serif;
+  line-height: 16px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 11;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.character-content:hover{
+  background: rgba(0, 0, 0, 0.54);
+  transition: 200ms ease-out;
+  cursor: default;
+  overflow: hidden;
+}
+.character-content:not(:hover){
+  opacity: 0;
+  transition: 300ms ease-out;
+}
+
+.character-skeleton {
+  display: flex;
+  gap: 10px;
+
+  
+}
